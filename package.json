@@ -1,10 +1,10 @@
 {
-  "name": "electron-download",
+  "name": "safelib-download",
   "version": "3.0.1",
-  "description": "download electron prebuilt binary zips from github releases",
+  "description": "download safe network prebuilt binary zips from github releases",
   "main": "build/index.js",
   "bin": {
-    "electron-download": "build/cli.js"
+    "safelib-download": "build/cli.js"
   },
   "scripts": {
     "prepublish": "babel --out-dir build lib",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-userland/electron-download.git"
+    "url": "git+https://github.com/gnunicorn/safelib-download.git"
   },
-  "author": "max ogden",
+  "author": "Benjamin Kampmann",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/electron-userland/electron-download/issues"
+    "url": "https://github.com/gnunicorn/safelib-download/issues"
   },
-  "homepage": "https://github.com/electron-userland/electron-download#readme",
+  "homepage": "https://github.com/gnunicorn/safelib-download#readme",
   "dependencies": {
     "debug": "^2.2.0",
     "fs-extra": "^0.30.0",
